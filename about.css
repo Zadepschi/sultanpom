@@ -1,0 +1,32 @@
+#about {
+    height: 100vh;
+    background-color: rgb(165, 239, 246);
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+.about h4 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+.imgAbout {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+@media all and (max-width: 540px) {
+  
+        
+    .about h4 {
+        font-size: 20px;
+    }
+  
+}
+@media all and (max-width: 375px) {
+    .imgAbout img{
+      width: 200px;
+    }
+}

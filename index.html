@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SultanPom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="icon"  href="./icons/logo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Norican&display=swap" rel="stylesheet">
+    
+
+  </head>
+<body>
+   
+    <nav class="navbar navbar-expand-md  navbar-dark" aria-label="Fourth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand logo"  href="index.html"><img class="logosul" src="./icons/logosulpom.png" width="50px"/> SultanPom</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+             
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">О нас</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="service/service.html" data-bs-toggle="dropdown" aria-expanded="false">Наши шпицы</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="dog/dog.html">Щенки на продажу</a></li>
+                  <li><a class="dropdown-item" href="dog/dog.html">Мальчики</a></li>
+                  <li><a class="dropdown-item" href="dog/dog.html">Девочки</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="photo/photo.html">Фотогалерея</a>
+              </li>
+           
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle   active" href="service/service.html" data-bs-toggle="dropdown" aria-expanded="false">Услуги</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="service/service.html#grooming">Груминг и стрижка</a></li>
+                  <li><a class="dropdown-item" href="service/service.html#mating">Вязка</a></li>
+                  <li><a class="dropdown-item" href="service/service.html#overexposure">Передержка</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="#contact">Контакты</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+
+      
+      <section id="nav">
+
+   <div class="header">
+    <h1>Элитный питомник померанских шпицев</h1>
+  </div>
+  <div>
+     <h2 class="font">SultanPom</h2>
+  </div>
+
+   
+
+    <img id="img" class="kartinka" src="./icons/gif.gif" alt="dog" width="450">
+
+        <div class="buttons">
+          <div class="columnButton">
+          <a href=""><button class="btnCalculator">Калькулятор корма</button></a>
+          <img class="img"  src="./icons/Pngdog.png" alt="Dog">
+         </div>
+         <a href="#reservation"><button class="btnReservation">Груминг Резервация</button></a>
+        </div>
+
+   <div class="contact">
+    <a href="https://www.facebook.com/olga.yusenko?mibextid=ZbWKwL"><img class="icon" src="./icons/facebook.png" alt="facebook" /></a>
+    <a href="https://www.instagram.com/sultanpom/"><img class="icon" src="./icons/instagram.png" alt="instagram" /></a>
+    <a href="https://wa.me/+905305545116"><img class="icon" src="./icons/whatsapp.png" alt="whatsapp" /></a>
+    <a href="tel:+905305545116"><img class="icon" src="./icons/telephone.png" alt="telephone" /></a>
+   </div>
+   <img onclick="topFunction()" id="myBtnUp" class="uparrow" src="./icons/uparrow.png" alt="uparrow" width="50px"/>
+        
+  </section>
+   
+ <!-- bubbles -->
+ <div class="bubbles  bubblesOne" id="skills">
+  <h2 data-aos="zoom-in-up" 
+  data-aos-delay="200"
+  data-aos-duration="2000">О нас</h2>
+</div>
+
+
+ <!-- about -->
+  <section id="about">
+    <div class="about">
+      <h4>Здесь будет инфа О нас</h4>
+    </div>
+     <div class="imgAbout">
+     <img src="./icons/logosulpom.png" width="300px"/>
+    </div>
+  </section>
+
+     <!-- bubbles -->
+     <div class="bubbles bubblesTwo" id="projects">
+      <div data-aos="zoom-in-up" 
+      data-aos-delay="200"
+      data-aos-duration="2000">
+          <h2>Резервация</h2>
+      </div>
+  </div>
+
+
+  <!-- Form Contact me -->
+  <section id="reservation">
+  <div class="contactMe">
+    <div class="containerMe">
+ 
+        <form
+        action="https://formspree.io/f/xpzekkrj"
+        method="POST"
+            >
+            <input type="hidden" name="_language" value="ru"/>
+        <div class="contactForm" data-aos="fade-top" data-aos-delay="200" data-aos-duration="1500"
+        data-aos-easing="ease-in-out">
+            <h3 class="callUs">Свяжитесь с нами</h3>
+            <div class="formBox">
+                    <div class="inputBox w50">
+                        <input type="text" name="Имя" required>
+                        <span>Имя</span>
+                    </div>
+                    <div class="inputBox w35">
+                      <label>Дата</label>
+                        <input type="date"  name="Дата"  
+                        min="2023-05-01" max="2024-12-31" required>
+                    </div>
+                    <div class="inputBox w35">
+                      <label>Время</label>
+                        <input type="time"  name="Время" value="9:00" required>
+                    </div>
+
+                    <div class="inputBox w50 emailw50">
+                        <input type="email" required name="Электронный адрес">
+                        <span>Электронный адрес</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" required name="Номер телефона">
+                        <span>Номер телефона</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <textarea required name="сообщение"></textarea>
+                        <span>Ваше сообщение...</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <input class="btn" type="submit" value="Отправить">
+                    </div>
+            </div>
+        </div>
+    </form>
+    </div>
+</div>
+</section>
+
+<div class="bubbles bubblesThree" id="contacts">
+  <div data-aos="zoom-in-up" 
+  data-aos-delay="200"
+  data-aos-duration="2000">
+      <h2>Контакты</h2>
+  </div>
+</div>
+
+
+
+
+   <section id="contact">
+    
+<h2 class="headContact">Адрес</h2>
+
+       <div class="mapblock">
+          <div class="map">
+              <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=antalya arya gezi&t=&z=16&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:500px;}</style><a href="https://embedgooglemap.2yu.co">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:500px;}</style></div></div>
+          </div>
+         <div class="adres">
+           <div  class="location">
+             <img  class="locationPic" src="./icons/location.png" width="60px" alt="map"/> 
+             <p class="guzeloba"> Güzeloba Onat Apt 2105. Sokak <br> No: 12, D: 6, 07230 Muratpaşa/Antalya </p>
+            </div>
+        <a class="text" href="tel:+905305545116"><img class="telephone" src="./icons/pngtel1.png" alt="telephone" width="100px"/>+905305545116</a>
+        <a class="text" href="mailto:duralantalya@yahoo.com"><img class="zarf" src="./icons/pngmailpom.png" alt="mail" width="60px"/>olgasultan7292@yahoo.com</a>
+</div>
+</div>
+
+   </section>
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>  
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
