@@ -346,6 +346,9 @@ color: white;
 
 
 @media all and (max-width: 820px) {
+    .navbar-toggler .navbar-toggler-icon  {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")  ;
+    }
     .logosul {
         width: 30px;
     }
@@ -422,9 +425,7 @@ color: white;
 }
 
 @media all and (max-width: 600px) {
-   .navbar-toggler .navbar-toggler-icon  {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")  ;
-    }
+ 
     a.nav-link.nav-link.active {
         font-size: 20px;
     }
@@ -555,6 +556,9 @@ margin: 10px;
     .contact {
         right: 5px;
         top: 50%;
+    }
+    .img {
+        margin-top: 15px;
     }
 }
 

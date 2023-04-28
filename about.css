@@ -8,25 +8,75 @@
     justify-content: center;
 }
 .about h4 {
-    margin-top: 100px;
+    margin-top: 40px;
     font-size: 40px;
 }
-.imgAbout {
+
+
+
+#container {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+}
+#pictures {
+    width: 450px;
+}
+.btnSertificate {
+    background-color: #ffeda3;
+    border: none;
+    color: #232323;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
 }
 
+
+
+@media all and (max-width: 600px) {
+   
+    .btnSertificate{
+        font-size: 20px;
+    }
+}
+
+
+
+
 @media all and (max-width: 540px) {
-  
-        
+    #pictures {
+        width: 430px;
+    }
+    .btnSertificate{
+        font-size: 17px;
+    }
     .about h4 {
         font-size: 20px;
     }
   
 }
-@media all and (max-width: 375px) {
-    .imgAbout img{
-      width: 200px;
+
+@media all and (max-width: 414px) {
+    #pictures {
+        width: 320px;
+    }
+    .btnSertificate{
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 390px) {
+    #pictures {
+        width: 275px;
+    }
+}
+@media all and (max-width: 320px) {
+    #pictures {
+        width: 235px;
+    }
+}
+@media all and (max-width: 320px) {
+    #pictures {
+        width: 200px;
+    }
+    .btnSertificate{
+        font-size: 8px;
     }
 }

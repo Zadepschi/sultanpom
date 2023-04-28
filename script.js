@@ -97,3 +97,32 @@ function createBubbleThree(){
     }, 4000)
 }
 setInterval(createBubbleThree,50);
+
+
+
+
+const back = document.querySelector('#back');
+const next = document.querySelector('#next');
+
+const photos = ["./sertificate/1.jpg", "./sertificate/2.jpg", "./sertificate/3.jpg", "./sertificate/4.jpg", "./sertificate/5.jpg"];
+
+let i = 0;
+
+next.addEventListener("click", () => {
+
+    i++;
+      if(i > photos.length - 1) {
+     i=0;
+    }
+    document.querySelector("#pictures").src = photos[i];
+  
+})
+
+back.addEventListener("click",() => {
+
+    i--;
+    if(i < 0) {
+        i = photos.length - 1;
+    }
+    document.querySelector("#pictures").src = photos[i];
+})
