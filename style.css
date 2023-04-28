@@ -306,7 +306,7 @@ color: white;
     .img {
        width: 500px;
        margin: 0;
-       margin-top: 180px;
+       margin-top: 120px;
 
     }
     .mapblock {
@@ -359,7 +359,8 @@ color: white;
         font-size: 16px;
     }
   .img {
-    width: 400px;
+    width: 380px;
+    margin-top: 40px;
   }
   .guzeloba {
     font-size: 25px;
@@ -395,8 +396,11 @@ color: white;
         font-size: 35px ;
         margin-top: 20px;
     }
+    .kartinka {
+        width: 280px;
+    }
     .img{
-        width: 350px;
+        width: 310px;
     }
     .text {
         font-size: 30px;
@@ -483,7 +487,7 @@ color: white;
   }
   .img{
     width: 200px;
-    margin-top: 80px;
+    margin-top: 30px;
   }
   .btnCalculator, .btnReservation {
     font-size: 15px;
