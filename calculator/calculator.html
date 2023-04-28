@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SultanPom</title>
+    <link rel="icon"  href="../photo/photos/logo.ico">
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hbtn">
+    <h1 class="color">Суточная норма сухого корма для собаки</h1>
+    <a href="../index.html">
+        <a href="../index.html"><img class="home" src="../photo/photos/home.png" alt="home" width="50px"/></a>
+    </a>
+   </div>
+<div id="container">
+    <form>
+    <p>Введите калорийность корма, ккал/100г:</p>
+    <input id="kcal" class="inputKcal" type="text" placeholder="Введите данные...">
+   
+
+    <p>Введите вес собаки, кг:</p>
+    <input id="kg" class="inputKg" type="text" placeholder="Введите данные...">
+
+
+    <p>Выберите уровень активности:</p>
+    <button class="button" id="addCondition">Выбрать...</button>
+    <select id="condition">
+        <option value="2.20">Щенок (до 6 месяцев)</option>
+        <option value="1.70" selected>Активная взрослая собака</option>
+        <option value="1.40" selected>Неактивная взрослая собака</option>
+        <option value="1.90">Беременная собака</option>
+        <option value="2.40"> Кормящая </option>
+    </select>
+
+    <br>
+    <button class="button" id="btn">Рассчитать</button>
+    </form>
+
+<div class="bigBox">
+    <div>
+        <p>Энергетическая ценность в кДж</p>  
+        <span id="kjDay"></span>
+        <span>кДж/100гр</span>
+    </div>
+    <div>
+        <p>Рекомендуемая суточная норма</p>
+        <span id="grDay"></span>
+        <span>гр</span>
+    </div>
+</div>
+</div> 
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  
+    <script src="calculator.js"></script>
+</body>
+</html>

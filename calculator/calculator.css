@@ -1,0 +1,185 @@
+body {
+    background-image: url(https://cdn.glitch.global/83b9a015-6911-4eab-aa7c-37edb43d5d04/dog.jpg?v=1643661922641);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(212, 212, 172);
+    background-position: center;
+    min-height: 100vh;
+}
+#container {
+    background-color: rgb(237, 240, 236, 0.4);
+    width:350px;
+    height: 500px;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 15px 10px 8px #888888;
+    border-radius: 20px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+h1 {
+    margin-left: 50px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px
+}
+.color {
+    color: black;
+  text-shadow: 2px 2px 4px white;
+}
+p{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+  
+}
+span {
+    font-family: 'Lobster', cursive;
+}
+input {
+    font-family: 'Lobster', cursive;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.button {
+    font-family: 'Lobster', cursive;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+.bigBox {
+    display: flex;
+}
+#btn {
+    background-color: rgb(140, 243, 243);
+}
+#condition {
+    display: none;
+}
+select {
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+#grDay {
+    font-size: 30px;
+}
+#kjDay {
+    font-size: 20px;
+}
+.hbtn {
+    display: flex;
+    justify-content: space-around;
+}
+.divbtn {
+    padding: 5px;
+   margin-left: 200px;
+   width: 200px;
+   height: 60px;
+   border-radius: 20px;
+   font-family: 'Lobster', cursive;
+   font-size: 30px;
+   box-shadow: 15px 10px 8px #888888;
+   background-color: rgb(140, 243, 243);
+   cursor: pointer;
+}
+
+.btnBack {
+    display: flex;
+    justify-content: center;
+}
+.back {
+    width: 200px;
+    cursor: pointer;
+    width: 300px;
+    border-radius: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    background-color: rgb(237, 240, 236, 0.2);
+    box-shadow: 15px 10px 8px #888888;
+}
+.back:hover {
+    background-image: linear-gradient(white, rgb(253, 252, 253), rgb(205, 241, 253));
+}
+
+.home {
+    position: fixed;
+    right: 10px;
+    top: 20px;
+ }
+
+
+
+@media all and (max-width: 800px) {
+    body {
+        background-image: url(https://cdn.glitch.global/83b9a015-6911-4eab-aa7c-37edb43d5d04/dog1.jpg?v=1643785921302); 
+        
+    }
+    .color{
+        margin-left: 30px;
+    }
+    
+    #container {
+       margin: auto;
+    }
+    .hbtn {
+        display: flex;
+        flex-direction: column;
+    }
+    .divbtn {
+        margin-bottom: 40px;
+        margin-left: 250px;
+    }
+    .back {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+@media all and (max-width: 500px) {
+    #container {
+       margin: auto;
+       width: 300px;
+    }
+    .hbtn {
+        display: flex;
+        flex-direction: column;
+    }
+    .divbtn {
+        margin-bottom: 40px;
+        margin-left: 150px;
+    }
+    .back {
+        margin-top: 20px;
+    }
+  h1 {
+   
+    font-size: 30px
+}
+}
+
+@media all and (max-width: 375px) {
+    .home {
+
+        top: 60px;
+     }
+     h1 {
+   
+        font-size: 25px
+    }
+}
+@media all and (max-width: 360px) {
+    .home {
+
+        top: 40px;
+     }
+}
