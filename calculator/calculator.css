@@ -174,9 +174,12 @@ select {
      }
      h1 {
    
-        font-size: 25px
+        font-size: 20px
     }
 }
+
+
+
 @media all and (max-width: 360px) {
     .home {
 
