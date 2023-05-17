@@ -638,6 +638,9 @@ margin: 10px;
 
 
 @media all and (max-width: 360px) {
+    .logosul {
+        width: 28px;
+    }
       a.navbar-brand.logo{
         font-size: 35px;
      }
@@ -645,9 +648,7 @@ margin: 10px;
         font-size: 22px ;
         margin-top: 8px;
     }
-    a.navbar-brand.logo{
-        font-size: 40px;
-     }
+  
      .font{
         font-size: 45px;
       }
