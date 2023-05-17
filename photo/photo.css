@@ -223,7 +223,7 @@ width: 100%;
   }
  }
 
- @media all and (max-width:320px) {
+ @media all and (max-width:360px) {
     
   #gallery img {
     width: 135px;
