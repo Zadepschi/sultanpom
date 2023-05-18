@@ -1,10 +1,10 @@
 
 #grooming {
-    height: 100vh;
-    background-color: rgb(246, 215, 243);
+    min-height: 100vh;
+    background-color: white;
 }
 .logo {
-    font-family: 'Norican', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     text-shadow: 2px 0 3px rgb(59, 55, 55);
     }
 a.navbar-brand.logo{
@@ -12,10 +12,10 @@ a.navbar-brand.logo{
     font-size: 40px;
     filter: drop-shadow(2px 2px 3px  black);
     margin-left: 40px;
-    
     }
+
 .font {
-    font-family: 'Norican', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     color: rgb(247, 162, 6);
     font-size: 70px;
     filter: drop-shadow(2px 2px 4px  black);
@@ -28,23 +28,40 @@ a.navbar-brand.logo{
 a.nav-link.nav-link.active {
     color: black;
     font-size: 20px;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
 ul {
-   margin-left: 230px;
+    margin-left: 230px;
+ }
+ ul li {
+     margin: 10px;
+ }
+ ul.dropdown-menu.show {
+     font-family: 'Roboto Condensed', sans-serif;
+     background-color: #FFFBE9;
+ }
+ 
+
+
+
+.headerService {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-ul li {
-    margin: 10px;
+
+.fontService {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(247, 162, 6);
+    font-size: 40px;
+    filter: drop-shadow(2px 2px 4px  black);
 }
-
-ul.dropdown-menu.show {
-    font-family: 'Balsamiq Sans', cursive;
-    background-color: #FFFBE9;
+.textService {
+    margin: 20px 50px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-
-
-
-
 
 .uparrow {
     position: fixed;
@@ -67,28 +84,44 @@ ul.dropdown-menu.show {
 }
 
 
-
-
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px;
+    flex-wrap: wrap;
+}
+.serviceBox {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 
 
 .serviceList li {
     list-style-type: none; 
-    margin: 10px;
-    padding: 10px;
+    margin: 3px;
+    padding: 3px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 span {
     padding: 15px;
 }
 #mating {
-    height: 100vh;
-    background-color: rgb(205, 255, 251);
+    min-height: 100vh;
+    background-color: rgb(222, 250, 248);
 }
 
 #overexposure {
-    height: 100vh;
-    background-color: rgb(255, 128, 153);
+    min-height: 100vh;
+    background-color: rgb(249, 244, 245);
 }
 
 
@@ -96,25 +129,37 @@ span {
 
 
 
+@media all and (max-width:1350px) {
+    ul {
+        margin-left: 100px;
+     }
+}
 
-
-
+@media all and (max-width:1150px) {
+    ul {
+        margin-left: 20px;
+     }
+     .logosul {
+        width: 35px;
+    }
+    a.navbar-brand.logo{
+        font-size: 25px;
+        margin-left: 10px;
+        
+        }
+        .serviceBox {
+            width: 40%;
+        }
+}
 
 
 @media all and (max-width:912px) {
-    .logosul {
-        width: 40px;
-    }
-    a.navbar-brand.logo{
-        font-size: 35px;
-        margin-left: 20px;
-        
-        }
+ 
     ul {
-        margin-left: 40px;
+        margin-left: 10px;
      }
      a.nav-link.nav-link.active {
-        font-size: 18px;
+        font-size: 20px;
     }
     .font {
         font-size: 100px;
@@ -131,8 +176,26 @@ span {
     }
 }
 
+@media all and (max-width: 850px)  {
+    
+    .logosul {
+        width: 30px;
+    }
+    a.navbar-brand.logo{
+        font-size: 30px;
+        margin-left: 13px;
+        
+        }
+
+     a.nav-link.nav-link.active {
+        font-size: 16px;
+    }
+}
 
 @media all and (max-width: 820px) {
+    .navbar-toggler .navbar-toggler-icon  {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")  ;
+    }
     .logosul {
         width: 30px;
     }
@@ -166,14 +229,21 @@ span {
      ul li {
          margin: 7px;
      }
+     
     
 }
+@media all and (max-width: 700px) {
+    .serviceBox {
+        width: 60%;
+    }
+    .boxes {
+        margin: 0 20px;
+    }
+} 
 
 
 @media all and (max-width: 600px) {
-    .navbar-toggler .navbar-toggler-icon  {
-         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")  ;
-     }
+  
      a.nav-link.nav-link.active {
         font-size: 20px;
     }
@@ -190,6 +260,9 @@ span {
         .icon {
             width: 45px;
         }
+        .serviceBox {
+            width: 80%;
+        }
  }
 
 
@@ -201,7 +274,24 @@ span {
     bottom: 20px;
     width: 40px;
  }
-     
+ .serviceList {
+    margin-left: 5px;
+    padding: 5px;
+ }
+}
+
+@media all and (max-width: 412px) {
+    .serviceBox {
+        width: 90%;
+    }
+    .boxes {
+        margin: 0 10px;
+    }
+    .serviceList {
+        margin-left: 0;
+        padding: 0;
+     }
+ 
 }
 
 @media all and (max-width: 375px) {
@@ -214,5 +304,7 @@ span {
       .icon {
         margin-top: 17px;
       }
-  
+      .serviceBox {
+        width: 95%;
+    }
 }

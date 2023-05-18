@@ -5,7 +5,7 @@ background: linear-gradient(90deg, #fcc1c1, #7ec2b1);
 
 
 h2{
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 /* Form Contact me */
 .contactMe{
@@ -68,7 +68,7 @@ h2{
     background: transparent;
 }
 .containerMe .contactForm .formBox .inputBox textarea{
-    height: 120px;
+    height: 80px;
 }
 .containerMe .contactForm .formBox .inputBox span{
     position: absolute;

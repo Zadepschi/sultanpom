@@ -19,10 +19,10 @@ gsap.to(".kartinka", {opacity: 0, delay: 2})
 }
 
 
-gsap.from(".img", { scrollTrigger:{trigger: ".img", toggleActions: "restart"}, y: 10, opacity: 0, duration: 2, delay:3.5})
+gsap.from(".img", { scrollTrigger:{trigger: ".img", toggleActions: "restart"}, y: -20, opacity: 0, duration: 1, delay:3.5})
 
-gsap.from(".btnCalculator", {opacity: 0, duration: .5, delay:3.5, y: -100})
-gsap.from(".btnReservation", {opacity: 0, duration: .5, delay:4.5, rotate: 360})
+gsap.from(".btnCalculator", {opacity: 0, duration: 1, delay:3.9, y: -20})
+gsap.from(".btnReservation", {opacity: 0, duration: 1, delay: 4.3, y: -20})
 
 
 // When the user scrolls down 20px from the top of the document, show the button

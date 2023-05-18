@@ -129,15 +129,16 @@
     backdrop-filter: blur(10px);
     background-color: #160000ed;
   }
+
+  /*
   #piccontainer {
     background-color: #810007;
     border-radius: 30px;
     position: absolute;
     padding: 0.5em 0.5em 0.5em 0.5em;
     overflow: hidden;
-    
   }
-  
+  */
 
 
   .extrabutton {
