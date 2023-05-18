@@ -174,6 +174,10 @@ span {
         padding: 5px;
         margin-top: 35px;
     }
+    .textService {
+        margin: 15px 30px;
+
+    }
 }
 
 @media all and (max-width: 850px)  {
@@ -278,9 +282,20 @@ span {
     margin-left: 5px;
     padding: 5px;
  }
+ .textService {
+    margin: 10px 20px;
+
+}
 }
 
 @media all and (max-width: 412px) {
+    a.navbar-brand.logo{
+        font-size: 40px;
+     }
+     .font{
+        font-size: 50px;
+      }
+
     .serviceBox {
         width: 90%;
     }
@@ -295,16 +310,20 @@ span {
 }
 
 @media all and (max-width: 375px) {
-    a.navbar-brand.logo{
-        font-size: 40px;
-     }
-     .font{
-        font-size: 50px;
-      }
+   
       .icon {
         margin-top: 17px;
       }
       .serviceBox {
         width: 95%;
     }
+    a.navbar-brand.logo{
+        font-size: 30px;
+     }
+}
+@media all and (max-width: 300px) {
+    a.navbar-brand.logo{
+        font-size: 25px;
+         
+         }
 }
