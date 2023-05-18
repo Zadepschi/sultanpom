@@ -74,7 +74,7 @@ ul {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 25%;
+    bottom: 20%;
     right: 30px;
 }
 .icon {
@@ -150,6 +150,7 @@ span {
         .serviceBox {
             width: 40%;
         }
+  
 }
 
 
@@ -169,11 +170,7 @@ span {
 
         right: 15px;
     }
-    .icon {
-        width: 70px;
-        padding: 5px;
-        margin-top: 35px;
-    }
+  
     .textService {
         margin: 15px 30px;
 
